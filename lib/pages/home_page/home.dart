@@ -176,7 +176,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                           trailing: InkWell(
                             onTap: () {
                               Navigator.push(
-                                  context, SizeRoute(page: MainIcons()));
+                                  context, SizeRoute(page: MainIcons(cardsData: widget.cardsData,)));
                             },
                             child: Text(
                               'SEE ALL',

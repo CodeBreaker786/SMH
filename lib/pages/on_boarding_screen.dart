@@ -57,13 +57,13 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           image: Image.asset('assets/onboarding/checker.png'),
           title: "Symptom Checker",
           body:
-              "Helps you decide where you should go for medical care - whether it's to stay at home,visit an urgent care or the ER.",
+              "Helps you decide where you should go for medical care - whether it's to stay at home,visit an urgent care, or the ER.",
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "Location Services",
           body:
-              "To take full advantage of thebuilt-in directions to our manyfacilities, please enable “Location Services”.",
+              "To take full advantage of the built-in directions to our many facilities, please enable “Location Services”.",
           image: Image.asset('assets/onboarding/location.png'),
           footer: ElevatedButton(
             onPressed: () async {

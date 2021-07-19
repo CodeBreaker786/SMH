@@ -13,6 +13,8 @@ import 'package:sarasotaapp/pages/smhevents.dart';
 import 'package:store_redirect/store_redirect.dart';
 
 class MainIcons extends StatefulWidget {
+   List<LocationItem> cardsData = [];
+   MainIcons({this.cardsData});
   @override
   _MainIconsState createState() => _MainIconsState();
 }
@@ -55,7 +57,7 @@ class _MainIconsState extends State<MainIcons> {
                   callBack: () {
                     Navigator.of(context).push(
                       MaterialPageRoute(builder: (BuildContext context) {
-                        return NearestLocations();
+                        return NearestLocations(cardsData: widget.cardsData,);
                       }),
                     );
                   }),
