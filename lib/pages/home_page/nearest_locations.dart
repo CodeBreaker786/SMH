@@ -4,7 +4,7 @@ import 'package:sarasotaapp/navigation.dart';
 import 'package:sarasotaapp/pages/locations/locationdetails.dart';
 
 class NearestLocations extends StatefulWidget {
-  List<LocationItem> cardsData = List();
+  List<LocationItem> cardsData = [];
   NearestLocations({this.cardsData});
 
   @override
