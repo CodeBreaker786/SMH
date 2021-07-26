@@ -69,7 +69,7 @@ class LocationInfo {
       address: '500 John Ringling Blvd,\nSarasota, FL 34236',
       image: 'assets/images/starmands.jpg',
       mapAddress: '500+John+Ringling+Blvd+Sarasota+FL+34236',
-      url: '9419524750',
+      url: '9412624750',
       latitude: 27.3190123,
       longitude: -82.5775187,
       description:
@@ -80,7 +80,7 @@ class LocationInfo {
       address: '5590 Bee Ridge Road,\nSarasota, FL 34233',
       image: 'assets/images/beeridge.jpg',
       mapAddress: '5590+Bee+Ridge+Road+Sarasota+FL+34233',
-      url: '9419174950',
+      url: '9412624950',
       latitude: 27.2983069,
       longitude: -82.4607919,
       description:
@@ -179,7 +179,7 @@ class LocationInfo {
       address: '997 N. US 41 Bypass\nVenice, FL 34285',
       image: 'assets/images/venice.jpg',
       mapAddress: '997+US+41+Bypass+Venice+FL+34285',
-      url: '9419524250',
+      url: '9412614250',
       latitude: 27.1083299,
       longitude: -82.4459322,
       description:

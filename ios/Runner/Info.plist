@@ -34,11 +34,11 @@
 	<key>NSCalendarsUsageDescription</key>
 	<string>Calendar use.</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Contacrt use.</string>
+	<string>Contact use.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Location is required to find out where you are</string>
+	<string>This app needs your location to search nearby businesses.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Location is required to find out where you are</string>
+	<string>This app needs your location to search nearby businesses.</string>
 	<key>NSMotionUsageDescription</key>
 	<string>SMH needs access to motion data to display steps.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>

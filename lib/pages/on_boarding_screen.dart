@@ -73,7 +73,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
               if (enabled) {
                 showSnackBar(
                     context: context,
-                    value: 'Permesstion Granted',
+                    value: 'Permission Granted',
                     icon: Icon(Icons.done));
               } else {
                 var location = Location();
@@ -82,7 +82,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                 if (gotEnabled) {
                   showSnackBar(
                       context: context,
-                      value: 'Permesstion Granted',
+                      value: 'Permission Granted',
                       icon: Icon(Icons.done));
                 }
               }
