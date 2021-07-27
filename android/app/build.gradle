@@ -41,9 +41,12 @@ android {
         applicationId "com.soln.SE35BCA74A3BE95A854E67E90FEB1DBB3"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 7
-        versionName '7.0'
+        versionCode 9
+        versionName '7.0.2'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            debugSymbolLevel 'FULL'
+        }
     }
     signingConfigs {
         release {
